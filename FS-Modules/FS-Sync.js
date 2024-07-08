@@ -35,3 +35,6 @@ fs.writeFileSync("./content/test2.txt", "This is appended data", { flag: "a" });
 // Syntax: fs.unlinkSync(file)
 // file: It is the file name including
 // fs.unlinkSync('./content/test2.txt');
+
+// Synchronous way of reading and writing files is not recommended for large files or when you have multiple operations to perform.
+// because it blocks the code until the specific operation is not completed.
